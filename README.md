@@ -21,19 +21,18 @@ This project predicts inventory demand using an LSTM neural network and provides
   - `Status`: Shipping status (`Shipped`, `Delivered`, etc.)
 
 Update the file path in the script if your dataset location is different:
-```python
+
 file_path = "/Users/meghanachada/Downloads/inventorydata/Amazon Sale Report.csv"
 
----
+### Installation
 
-## Installation
 Install all dependencies using pip:
 pip install numpy pandas matplotlib scikit-learn tensorflow scikit-fuzzy
 
-## How to Run
+### How to Run
 Place the sales dataset in the correct path and update in the code, then run python inventoryforecast.py
 
-## Output
+### Output
 Forecasted Demand for the next 10 days (printed to console).
 
 Restocking Urgency Score (0-100).
